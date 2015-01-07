@@ -4,7 +4,7 @@ if exists("b:current_syntax")
   finish
 endif
 
-syn match date	".*, \d\d.*:"
+syn match date	".*, \d.*:"
 syn match goal 	".*GOAL.*\d\d.*:"
 syn match header 	".*:$"
 syn match timeinterval "\s\+\d\+[hmd]\s"
